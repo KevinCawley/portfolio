@@ -1,3 +1,0 @@
-In custom.sass I added line 41 to make the content in the individual portfolio items 
-lager so I could have more freedom with my code displays.
-Viewing code on mobile doesn't work well!
