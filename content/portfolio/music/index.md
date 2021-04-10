@@ -11,6 +11,8 @@ projectUrl: https://github.com/tardis-sn/tardis
 draft: false
 ---
 
+<!--![Alt Text](https://media.giphy.com/media/iGx2wVjYzpazS/giphy.gif)-->
+
 I got interested in the harp in music class. In thirs grade I was 
 flipping through my music textbook and saw a page that had pictures 
 of the harp through the centuries, from the Egyptian harp with as few 
