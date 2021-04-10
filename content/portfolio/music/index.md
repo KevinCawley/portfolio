@@ -6,7 +6,7 @@ jobDate: 2015
 work: [performance]
 techs: [harp]
 thumbnail: music/harp_background.jpg
-projectUrl: https://github.com/tardis-sn/tardis
+projectUrl:
 
 draft: false
 ---
