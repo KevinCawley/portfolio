@@ -28,8 +28,6 @@ Given a number of rod(s), it would do numerical conversions to other lengths.
 There is no main, and only global variables are used. This project code in 
 its entirety and an example run is shown below.
 
-![Alt Text](https://media.giphy.com/media/iGx2wVjYzpazS/giphy.gif)
-
 ```python
 
 one_rod = 5.0292 #meters
