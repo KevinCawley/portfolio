@@ -9,7 +9,7 @@ enableRobotsTXT=true
 pygmentsUseClasses=true
 pygmentsCodeFences=true
 enableInlineShortcodes = true
-publishDir: "docs"
+publishDir= "docs"
 
 [params.intro]
   main = "Hi, I'm Kevin :wave:"
