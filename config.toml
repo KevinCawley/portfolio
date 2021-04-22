@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://kevincawley.github.io/portfolio/"
 languageCode = "en-us"
 title = "Kevin Cawley"
 theme = "personal-web"
@@ -46,7 +46,7 @@ enableInlineShortcodes = true
 [params.sidebar]
   backgroundImage = '' # header background image - default "/images/plane-photo-to-china-2017.jpg"
   gradientOverlay = 'rgba(0,0,0,0.1),rgba(0,0,0,0.1)' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "/images/profile-picture.jpg" # - default "/images/profile-picture.jpg"
+  logo = "" # - default "/images/profile-picture.jpg"
 [params.assets]
   favicon = ""
   customCSS = ""
