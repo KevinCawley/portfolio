@@ -1,4 +1,4 @@
-baseURL = "https://kevincawley.github.io/portfolio/"
+baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Kevin Cawley"
 theme = "personal-web"
@@ -46,7 +46,7 @@ enableInlineShortcodes = true
 [params.sidebar]
   backgroundImage = '' # header background image - default "/images/plane-photo-to-china-2017.jpg"
   gradientOverlay = 'rgba(0,0,0,0.1),rgba(0,0,0,0.1)' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
-  logo = "" # - default "/images/profile-picture.jpg"
+  logo = "/images/profile-picture.jpg" # - default "/images/profile-picture.jpg"
 [params.assets]
   favicon = ""
   customCSS = ""
@@ -62,9 +62,10 @@ enableInlineShortcodes = true
   #instagram = "https://www.instagram.com/"
   #gitlab = "https://gitlab.com/"
   #keybase = "https://keybase.io/"
+  mail = "mailto:cawleyke@msu.edu"
 
 [params.contact]
-  email = "cawleyke@msu.edu"
+  email = ""
   text= "My Email" # text of the contact link in the sidebar. If email params.contact.email is defined
 
 
