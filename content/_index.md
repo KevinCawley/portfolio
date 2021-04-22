@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Welcome to this sample project
+description: This is my portfolio
 images: ["/static/images/sample_image.jpg"]
 draft: false
 ---
