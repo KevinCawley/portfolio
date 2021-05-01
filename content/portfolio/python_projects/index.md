@@ -10,6 +10,7 @@ projectUrl:
 
 draft: false
 ---
+
 This is a walkthrough of my Python projects that I did in 
 my CSE231 class, and I will discuss what new features each 
 project included from the next.
@@ -32,16 +33,16 @@ its entirety and an example run is shown below.
 
 one_rod = 5.0292 #meters
 furlong = 40 * one_rod
-mile = 1609.34 #1 mi = mile (in meters)
+mile = 1609.34 #meters
 foot = .3048 #meters
-average_walking_speed = 3.1 #(miles per hour)
-aws = average_walking_speed
-aws = 3.1 / 60 * 1609.34 #in meters/min
+average_walking_speed = 3.1 #mph
+aws = 3.1 / 60 * 1609.34 #meters/min
 
 
 rods_str = input("Input rods: ")
 rods_float = float(rods_str)
-print("You input", rods_float, "rods.")
+print("You input", rods_float,
+      "rods.")
 
 Meters = (one_rod * rods_float)
 Feet = ( Meters / .3048)
@@ -60,17 +61,9 @@ print("Meters:", Meters)
 print("Feet:", Feet)
 print("Miles:", Miles)
 print("Furlongs:", Furlongs)
-print("Minutes to walk", rods_float, "rods:", Min_to_walk)
-#Output below when program is run
-Input rods: 5
-You input 5.0 rods.
-
-Conversions
-Meters: 25.146
-Feet: 82.5
-Miles: 0.016
-Furlongs: 0.125
-Minutes to walk 5.0 rods: 0.302
+print("Minutes to walk", rods_float, 
+      "rods:", Min_to_walk)
+      
 ```
 There is no recusion with this code, it is one and done. 
 This was my first project in CSE 231, and looking at it right now 
