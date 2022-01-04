@@ -8,7 +8,7 @@ techs: [python]
 thumbnail: python_projects/python_logo_and_wordmark.jpg
 projectUrl: 
 
-draft: false
+draft: true
 ---
 
 This is a walkthrough of my Python projects that I did in 
