@@ -33,7 +33,7 @@ break it, so I played it so quietly it was hard to hear.
 I have been playing the harp for over 11 years. 
 This piece, The Moldau trans Hans Trneček, is a piece that I have listened to 
 for years. I love the orchestra version, and I would listen to it frequently. 
-I got the music once for fun 2 years before I started learning it. I remember 
+I got the music for fun 2 years before I started learning it. I remember 
 trying the first two measures and realizing that my what my teacher, Chen-Yu, 
 said about it being a hard piece was correct. I put it away as I was not able 
 to even get one page down and learned other things that were more appropriate 

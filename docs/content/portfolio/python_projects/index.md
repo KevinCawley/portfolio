@@ -8,8 +8,9 @@ techs: [python]
 thumbnail: python_projects/python_logo_and_wordmark.jpg
 projectUrl: 
 
-draft: false
+draft: true
 ---
+
 This is a walkthrough of my Python projects that I did in 
 my CSE231 class, and I will discuss what new features each 
 project included from the next.
@@ -28,20 +29,20 @@ Given a number of rod(s), it would do numerical conversions to other lengths.
 There is no main, and only global variables are used. This project code in 
 its entirety and an example run is shown below.
 
-```python
+```python {.scroll}
 
 one_rod = 5.0292 #meters
 furlong = 40 * one_rod
-mile = 1609.34 #1 mi = mile (in meters)
+mile = 1609.34 #meters
 foot = .3048 #meters
-average_walking_speed = 3.1 #(miles per hour)
-aws = average_walking_speed
-aws = 3.1 / 60 * 1609.34 #in meters/min
+average_walking_speed = 3.1 #mph
+aws = 3.1 / 60 * 1609.34 #meters/min
 
 
 rods_str = input("Input rods: ")
 rods_float = float(rods_str)
-print("You input", rods_float, "rods.")
+print("You input", rods_float,
+      "rods.")
 
 Meters = (one_rod * rods_float)
 Feet = ( Meters / .3048)
@@ -60,17 +61,9 @@ print("Meters:", Meters)
 print("Feet:", Feet)
 print("Miles:", Miles)
 print("Furlongs:", Furlongs)
-print("Minutes to walk", rods_float, "rods:", Min_to_walk)
-#Output below when program is run
-Input rods: 5
-You input 5.0 rods.
-
-Conversions
-Meters: 25.146
-Feet: 82.5
-Miles: 0.016
-Furlongs: 0.125
-Minutes to walk 5.0 rods: 0.302
+print("Minutes to walk", rods_float, 
+      "rods:", Min_to_walk)
+      
 ```
 There is no recusion with this code, it is one and done. 
 This was my first project in CSE 231, and looking at it right now 
@@ -163,16 +156,16 @@ Project 10 was the first use of classes in Python. For our first use of classes,
 we were provided a class to practice how to use class objects and member functions. 
 This would make a game of scorpion solitaire for you to play with all of the rules
 
-Project 11, the last project, was making a game of pokemon. Two classes were made,
-Move and Pokemon. Move is the class for each move that a Pokemon would have. 
+Project 11, the last project, was making a game of Pokémon. Two classes were made,
+Move and Pokémon. Move is the class for each move that a Pokémon would have. 
 It stored all of the attributes of a move like accuracy, type, element, etc as well as 
 functions in the form of get_attribute that would return it so you don't call the attribute directly. 
 It also included the basic functions of __str__ and __repr__ that allow it to be printed. 
-Pokemon had the same layout of get_attribute which would return the attribute. It would make a 
-moves list, that would get 4 moves from a file for the pokemon that matched its type. It had output 
-for the statistics of each move, and the attack, which is when a pokemon would attack another.
+Pokémon had the same layout of get_attribute which would return the attribute. It would make a 
+moves list, that would get 4 moves from a file for the Pokémon that matched its type. It had output 
+for the statistics of each move, and the attack, which is when a Pokémon would attack another.
 This member function calculated the damage and if the attack would be successful or not, and 
-modified the enemy pokemon's HP. 
+modified the enemy Pokémon's HP. 
 
 This final project was the most complex as two custom classes were made and then had to be used 
 to fight. Even though this is the most complex project, the use of classes allowed for the 

@@ -1,19 +1,13 @@
 ---
-title: Learning C++
-description: This is the description of our sample project
-date: "2021-1-3T12:38:09+02:00"
-jobDate: 2021
-work: [coding]
-techs: [C++]
-thumbnail: cpp/cpp_image.jpg
-projectUrl: 
-draft: true
+title: "Learning Python"
+date: 2021-03-13T10:48:23-06:00
+
+draft: false
 ---
-This is a walkthrough of my C++ projects that I did in 
-my CSE232 class, and I will discuss what new features each 
+
+This is a walkthrough of my Python projects that I did in 
+my CSE231 class, and I will discuss what new features each 
 project included from the next.
-
-
 
 I started coding in the Fall of 2020 in CSE 231: Introduction 
 to Programming I. This is a course in Python, and is meant for 
@@ -28,8 +22,6 @@ The first project was a basic project that would do measurement conversions.
 Given a number of rod(s), it would do numerical conversions to other lengths. 
 There is no main, and only global variables are used. This project code in 
 its entirety and an example run is shown below.
-
-
 
 ```python {.scroll}
 
@@ -65,10 +57,8 @@ print("Miles:", Miles)
 print("Furlongs:", Furlongs)
 print("Minutes to walk", rods_float, 
       "rods:", Min_to_walk)
-
+      
 ```
-
-
 There is no recusion with this code, it is one and done. 
 This was my first project in CSE 231, and looking at it right now 
 there are things that I would change, the least of which 
@@ -178,6 +168,7 @@ over older projects in terms of clarity and simplicity. Instead of having a lot 
 functions written into main, all operations were in separate functions and simply called. 
 No real calculations were done except for basic addition and then a while loop to simulate 
 the battle. 
+
 
 These projects can be seen from this GitHub link at the top of the page and 
 here. These projects show rapid development of my Python skill as I learned 
