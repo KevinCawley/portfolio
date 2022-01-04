@@ -17,4 +17,7 @@ can be modified and turned on/off to allow TARDIS to be
 used for different applications. Different models can be 
 created by changing the concentration of elements, selecting 
 different physics approximations and measurements, and other 
-features.
+features. 
+
+I started working on the documentation of TARDIS, and created 
+the Code Quality guidelines for TARDIS to allow for better view.

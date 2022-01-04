@@ -156,16 +156,16 @@ Project 10 was the first use of classes in Python. For our first use of classes,
 we were provided a class to practice how to use class objects and member functions. 
 This would make a game of scorpion solitaire for you to play with all of the rules
 
-Project 11, the last project, was making a game of pokemon. Two classes were made,
-Move and Pokemon. Move is the class for each move that a Pokemon would have. 
+Project 11, the last project, was making a game of Pokémon. Two classes were made,
+Move and Pokémon. Move is the class for each move that a Pokémon would have. 
 It stored all of the attributes of a move like accuracy, type, element, etc as well as 
 functions in the form of get_attribute that would return it so you don't call the attribute directly. 
 It also included the basic functions of __str__ and __repr__ that allow it to be printed. 
-Pokemon had the same layout of get_attribute which would return the attribute. It would make a 
-moves list, that would get 4 moves from a file for the pokemon that matched its type. It had output 
-for the statistics of each move, and the attack, which is when a pokemon would attack another.
+Pokémon had the same layout of get_attribute which would return the attribute. It would make a 
+moves list, that would get 4 moves from a file for the Pokémon that matched its type. It had output 
+for the statistics of each move, and the attack, which is when a Pokémon would attack another.
 This member function calculated the damage and if the attack would be successful or not, and 
-modified the enemy pokemon's HP. 
+modified the enemy Pokémon's HP. 
 
 This final project was the most complex as two custom classes were made and then had to be used 
 to fight. Even though this is the most complex project, the use of classes allowed for the 
