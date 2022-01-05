@@ -47,4 +47,4 @@ such as my ```{.scroll}``` shortcode, to deal with long bits of codeblocks such 
 
 After this website's initial version was finished, I went on to working on the
 [TARDIS webiste](https://tardis-sn.github.io/), which present a lot of new challenges.
-I talk about it more [here](/portfolio/tardis_website).
+I talk about it more [here](/portfolio/portfolio/tardis_website/).
